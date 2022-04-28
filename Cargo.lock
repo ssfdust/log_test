@@ -38,20 +38,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
-name = "chen"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "lazy_static",
- "log",
- "rand",
- "slog",
- "slog-scope",
- "slog-stdlog",
- "slog-term",
-]
-
-[[package]]
 name = "chrono"
 version = "0.4.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -130,6 +116,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6389c490849ff5bc16be905ae24bc913a9c8892e19b2341dbc175e14c341c2b8"
 dependencies = [
  "cfg-if",
+]
+
+[[package]]
+name = "log_test"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "lazy_static",
+ "log",
+ "rand",
+ "slog",
+ "slog-scope",
+ "slog-stdlog",
+ "slog-term",
 ]
 
 [[package]]
